@@ -38,13 +38,12 @@ def banner():
 \x1b[0;31m / /   / ___/ // /_/ ___/ //_/\x1b[0;31m|•| MENGGUNAKAN
 \x1b[0;37m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;37m|•| SEMOGA
 \x1b[0;37m\____/_/\x1b[0;36mV3.1 \x1b[0;37m/_/  \___/_/|_|  \x1b[0;37m|•| BERHASIL
-\x1b[0;36m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+\x1b[0;33m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : Aang Ardiansyah-XD
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Github   : Github.com/AngCyber
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Facebook : Saya Aang
-\x1b[0;36m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+\x1b[0;33m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 """)
-
 host="https://mbasic.facebook.com"
 ok = []
 cp = []
@@ -120,7 +119,6 @@ def gets_dict_cookies(cookies):
 		for i in cookies.split("; "):
 			result.update({i.split("=")[0]:i.split("=")[1]})
 		return result
-
 def country():
     os.system("clear")
     banner()
