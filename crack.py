@@ -33,16 +33,16 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[1;92m   ______     __ __       __
-\x1b[1;92m  / ____/____/ // / _____/ /__\x1b[1;93m|•| Selamat
-\x1b[1;92m / /   / ___/ // /_/ ___/ //_/\x1b[1;93m|•| Menggunakan
-\x1b[1;92m/ /___/ /  /__  __/ /__/ ,<   \x1b[1;93m|•| Semiga 
-\x1b[1;92m\____/_/ V3.1/_/  \___/_/|_|  \x1b[1;93m|•| Berhasil
-\x1b[1;92m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
-\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[1;93m Author   : Aang Ardiansyah-XD
-\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[1;93m Github   : Github.com/AngCyber
-\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[1;93m Facebook : Saya Aang
-\x1b[1;92m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+    print("""\x1b[0;31m   ______     __ __       __
+\x1b[0;31m  / ____/____/ // / _____/ /__\x1b[0;31m|•| SELAMAT
+\x1b[0;31m / /   / ___/ // /_/ ___/ //_/\x1b[0;31m|•| MENGGUNAKAN
+\x1b[0;37m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;37m|•| SEMOGA
+\x1b[0;37m\____/_/\x1b[0;36mV3.1 /_/  \___/_/|_|  \x1b[0;37m|•| BERHASIL
+\x1b[0;36m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[0;37m Author   : Aang Ardiansyah-XD
+\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[0;37m Github   : Github.com/AngCyber
+\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[0;37m Facebook : Saya Aang
+\x1b[0;36m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 """)
 
 host="https://mbasic.facebook.com"
