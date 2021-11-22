@@ -194,7 +194,7 @@ def logs():
   print((k+"\n["+p+"01"+k+"]"+p+" Login With Token"))
   print((k+"["+p+"02"+k+"]"+p+" Login With Cookies"))
   print((k+"["+p+"00"+k+"]"+p+" Log Out(Ahh Ngecrot)"))
-  sek=input(k+"\n["+p+"•"+k+"]"+p+"Choose : ")
+  sek=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
   if sek=="":
     print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     logs()
