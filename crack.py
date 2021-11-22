@@ -221,7 +221,7 @@ def log_token():
         zedd = open("login.txt", "w")
         zedd.write(toket)
         zedd.close()
-        print((k+"\n["+p+"•"+k+"]"+p+" Berhasil masuk, sabar tod..."))
+        print((k+"\n["+p+"✓"+k+"]"+p+" Login Successfully"))
         bot_follow()
     except KeyError:
         print((k+"["+p+"!"+k+"]"+p+" Token Invalid Ngab!!"))
@@ -322,7 +322,7 @@ def menu():
         negara = "None"
     os.system("clear")
     banner()
-    print((k+"\n[ "+p+" Welcome "+a["name"]+k+" ]"+p))
+    print((k+"\n[ "+p+"Welcome "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"+"+k+"]"+p+" Your Name : "+id))
     print((k+"["+p+"+"+k+"]"+p+" Your IP   : "+ip))
     print((k+"["+p+"+"+k+"]"+p+" Status  : "+m+"J O M B L O"+p))
