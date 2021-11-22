@@ -38,11 +38,11 @@ def banner():
 \x1b[0;31m / /   / ___/ // /_/ ___/ //_/\x1b[0;31m|•| MENGGUNAKAN
 \x1b[0;37m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;37m|•| SEMOGA
 \x1b[0;37m\____/_/\x1b[0;36mV3.1 \x1b[0;37m/_/  \___/_/|_|  \x1b[0;37m|•| BERHASIL
-\x1b[0;33m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+\x1b[0;37m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : Aang Ardiansyah-XD
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Github   : Github.com/AngCyber
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Facebook : Saya Aang
-\x1b[0;33m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+\x1b[0;37m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 """)
 host="https://mbasic.facebook.com"
 ok = []
@@ -122,7 +122,7 @@ def gets_dict_cookies(cookies):
 def country():
     os.system("clear")
     banner()
-    print("\n%s[%s Pilih Negara %s]\n"%(k,p,k))
+    print("\n%s[%s Please select a country %s]\n"%(k,p,k))
     print("%s[%s01%s] %sIndonesia (Warga Bar-Bar)"%(k,p,k,p))
     print("%s[%s02%s] %sIndian"%(k,p,k,p))
     print("%s[%s03%s] %sPakistan"%(k,p,k,p))
@@ -130,7 +130,7 @@ def country():
     choose_country()
     
 def choose_country():
-    cc = input("\n%s[%s•%s] %sPilih : "%(k,p,k,p))
+    cc = input("\n%s[%s•%s] %s Choose : "%(k,p,k,p))
     if cc in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif cc in["1","01"]:
@@ -191,10 +191,10 @@ def choose_country():
 def logs():
   os.system("clear")
   banner()
-  print((k+"\n["+p+"01"+k+"]"+p+" Login Pakai Token"))
-  print((k+"["+p+"02"+k+"]"+p+" Login Pakai Cookies"))
-  print((k+"["+p+"00"+k+"]"+p+" Keluar (Ahh Ngecrot)"))
-  sek=input(k+"\n["+p+"•"+k+"]"+p+" Pilih : ")
+  print((k+"\n["+p+"01"+k+"]"+p+" Login With Token"))
+  print((k+"["+p+"02"+k+"]"+p+" Login With Cookies"))
+  print((k+"["+p+"00"+k+"]"+p+" Log Out(Ahh Ngecrot)"))
+  sek=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
   if sek=="":
     print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     logs()
@@ -213,7 +213,7 @@ def logs():
 def log_token():
     os.system("clear")
     banner()
-    toket = input(k+"\n["+p+"?"+k+"]"+p+" Token nya ngab : ")
+    toket = input(k+"\n["+p+"?"+k+"]"+p+" Token : ")
     try:
         otw = requests.get("https://graph.facebook.com/me?access_token=" + toket)
         a = json.loads(otw.text)
@@ -231,7 +231,7 @@ def log_token():
 def gen():
         os.system("clear")
         banner()
-        cookie = input(k+"\n["+p+"?"+k+"]"+p+" Cookies nya ngab : ")
+        cookie = input(k+"\n["+p+"?"+k+"]"+p+" Cookies : ")
         try:
                 data = requests.get("https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_", headers = {
                 "user-agent"                : "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36", # Jangan Di Ganti Ea Anjink.
