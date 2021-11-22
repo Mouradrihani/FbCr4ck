@@ -37,11 +37,11 @@ def banner():
 \x1b[0;31m  / ____/____/ // / _____/ /__\x1b[0;31m|•| SELAMAT
 \x1b[0;31m / /   / ___/ // /_/ ___/ //_/\x1b[0;31m|•| MENGGUNAKAN
 \x1b[0;37m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;37m|•| SEMOGA
-\x1b[0;37m\____/_/\x1b[0;36mV3.1 /_/  \___/_/|_|  \x1b[0;37m|•| BERHASIL
+\x1b[0;37m\____/_/\x1b[0;36mV3.1 \x1b[0;37m/_/  \___/_/|_|  \x1b[0;37m|•| BERHASIL
 \x1b[0;36m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
-\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[0;37m Author   : Aang Ardiansyah-XD
-\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[0;37m Github   : Github.com/AngCyber
-\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[0;37m Facebook : Saya Aang
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : Aang Ardiansyah-XD
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Github   : Github.com/AngCyber
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Facebook : Saya Aang
 \x1b[0;36m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 """)
 
