@@ -123,10 +123,10 @@ def country():
     os.system("clear")
     banner()
     print("\n%s[%s Pilih Negara %s]\n"%(k,p,k))
-    print("%s[%s01%s] %sIndonesia (Warga +62)"%(k,p,k,p))
-    print("%s[%s02%s] %sAca Aca (India)"%(k,p,k,p))
-    print("%s[%s03%s] %sPakistan (Perang Tros)"%(k,p,k,p))
-    print("%s[%s04%s] %sUSA (Negara Lord Jordi)"%(k,p,k,p))
+    print("%s[%s01%s] %sIndonesia (Warga Bar-Bar)"%(k,p,k,p))
+    print("%s[%s02%s] %sIndian"%(k,p,k,p))
+    print("%s[%s03%s] %sPakistan"%(k,p,k,p))
+    print("%s[%s04%s] %sUSA (American)"%(k,p,k,p))
     choose_country()
     
 def choose_country():
