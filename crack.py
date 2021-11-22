@@ -25,7 +25,7 @@ if ("linux" in sys.platform.lower()):
         R = "\033[1;91m"
 else:
 
-          N = ""
+        N = ""
         G = ""
         O = ""
         R = ""
